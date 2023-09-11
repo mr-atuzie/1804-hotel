@@ -34,7 +34,7 @@ const Navbar = () => {
           })}
         </ul>
 
-        <button className="hidden md:flex rounded bg-blue-700 text-white px-6 py-3 capitalize hover:bg-white hover:text-black hover:border-2 hover:border-black ">
+        <button className="hidden md:flex rounded-md bg-blue-700 text-white px-6 py-3 capitalize hover:bg-green-400 hover:text-black hover:border-2 hover:border-black ">
           Get Started
         </button>
 
