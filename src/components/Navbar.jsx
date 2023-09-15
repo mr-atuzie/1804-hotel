@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
       </div>
       {nav && (
-        <div className=" z-50 duration-300 flex flex-col fixed  shadow-md bg-white top-0 right-0  w-[80vw] h-screen">
+        <div className=" z-40 duration-300 flex flex-col fixed  shadow-md bg-white top-0 right-0  w-[80vw] h-screen">
           <div className="p-4 flex justify-between items-center">
             <div>
               <img width={200} src={logo} alt="1804-logo" />
