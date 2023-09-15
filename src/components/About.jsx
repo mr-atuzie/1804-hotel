@@ -6,15 +6,15 @@ import kitchen from "../assets/kitchen.jpg";
 const About = () => {
   return (
     <div className=" w-[90%] lg:w-[80%] mx-auto py-28">
-      <div className=" w-full flex-row-reverse items-center  flex justify-around ">
+      <div className=" w-full flex-row-reverse items-center  lg:flex justify-around ">
         <img className=" w-[40%]" src={sp} alt="" />
 
         {/* text container */}
         <div className=" w-[40%]">
-          <h3 className=" font-semibold text-3xl capitalize">
+          <h3 className=" font-semibold text-lg lg:text-3xl capitalize">
             An elegant swimming pool and pool side area
           </h3>
-          <p className=" text-gray-500 mt-4">
+          <p className="text-sm lg:text-base text-gray-500 mt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
             commodi a fugiat. Eaque amet temporibus sit, quis provident possimus
             distinctio mollitia cum excepturi. Eveniet, veritatis. Lorem ipsum
@@ -33,14 +33,14 @@ const About = () => {
         </div>
       </div>
       <div className=" w-full my-6 flex  justify-around items-center ">
-        <img className=" w-[40%]" src={snooker} alt="" />
+        <img className=" lg:w-[40%]" src={snooker} alt="" />
 
         {/* text container */}
         <div className=" w-[40%]">
-          <h3 className=" font-semibold text-3xl capitalize">
+          <h3 className=" font-semibold  text-lg lg:text-3xl capitalize">
             Fun Games in cozy places
           </h3>
-          <p className=" text-gray-500 mt-4">
+          <p className=" text-sm lg:text-base text-gray-500 mt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
             commodi a fugiat. Eaque amet temporibus sit, quis provident possimus
             distinctio mollitia cum excepturi. Eveniet, veritatis. Lorem ipsum
@@ -55,10 +55,10 @@ const About = () => {
 
         {/* text container */}
         <div className=" w-[40%]">
-          <h3 className=" font-semibold text-3xl capitalize">
+          <h3 className=" font-semibold  text-lg lg:text-3xl capitalize">
             24 Hours Restaurant and Room service
           </h3>
-          <p className=" text-gray-500 mt-4">
+          <p className=" text-sm lg:text-base text-gray-500 mt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
             commodi a fugiat. Eaque amet temporibus sit, quis provident possimus
             distinctio mollitia cum excepturi. Eveniet, veritatis. Lorem ipsum
