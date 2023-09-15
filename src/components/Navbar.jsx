@@ -9,19 +9,22 @@ const Navbar = () => {
 
   const links = [
     { id: 1, link: "/", name: "Home" },
-    { id: 2, link: "/", name: "about us" },
+    { id: 2, link: "/about", name: "about us" },
     { id: 2, link: "/", name: "Menu" },
     { id: 3, link: "/", name: "Rooms" },
     { id: 5, link: "/", name: "testimonials" },
-    { id: 6, link: "/", name: "contacts" },
+    { id: 6, link: "/contact", name: "contacts" },
   ];
+  const handleNav = () => {
+    console.log("i was clicked");
+  };
 
   return (
     <div className=" py-4 absolute top-0 z-40  w-full    ">
       <div className=" w-[90%] lg:w-[80%] mx-auto  flex justify-between items-center">
         <img width={250} src={logo} alt="1804-logo" />
 
-        <ul className="hidden text-black md:flex ">
+        <ul className="hidden text-purple-600 md:flex ">
           {links.map(({ id, link, name }) => {
             return (
               <li
@@ -38,12 +41,12 @@ const Navbar = () => {
           Get Started
         </button>
 
-        <div
-          onClick={() => setNav(!nav)}
+        <button
+          onClick={handleNav}
           className=" text-black cursor-pointer z-40 pr-4 md:hidden"
         >
           {nav ? <IoCloseOutline size={30} /> : <HiOutlineBars3 size={30} />}
-        </div>
+        </button>
       </div>
       {nav && (
         <div className=" z-40 duration-300 flex flex-col fixed  shadow-md bg-white top-0 right-0  w-[80vw] h-screen">

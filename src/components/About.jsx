@@ -5,7 +5,7 @@ import kitchen from "../assets/kitchen.jpg";
 
 const About = () => {
   return (
-    <div className=" w-[90%] lg:w-[80%] mx-auto py-40">
+    <div className=" w-[90%] lg:w-[80%] mx-auto py-28">
       <div className=" w-full flex-row-reverse items-center  flex justify-around ">
         <img className=" w-[40%]" src={sp} alt="" />
 

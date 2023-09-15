@@ -5,6 +5,8 @@ import About from "../components/About";
 import Banner from "../components/Banner";
 // import banner1 from "../assets/banner1.mp4";
 import Rooms from "../components/Rooms";
+import Packages from "../components/Packages";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <About />
       <Banner />
       <Rooms />
+      <Packages />
+      <Footer />
     </div>
   );
 };
