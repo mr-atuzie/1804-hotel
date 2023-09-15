@@ -7,6 +7,7 @@ import Banner from "../components/Banner";
 import Rooms from "../components/Rooms";
 import Packages from "../components/Packages";
 import Footer from "../components/Footer";
+import Menu from "../components/Menu";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <About />
       <Banner />
       <Rooms />
+      <Menu />
       <Packages />
       <Footer />
     </div>
