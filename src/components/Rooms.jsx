@@ -12,7 +12,7 @@ const Rooms = () => {
             src=" https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&w=1000&q=80"
             alt=""
           />
-          <div className=" p-3 font-medium"> Guest Rooms</div>
+          <div className=" p-3 font-medium text-lg"> Guest Rooms</div>
         </div>
 
         <div className=" bg-white shadow-md">
@@ -20,15 +20,15 @@ const Rooms = () => {
             src=" https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&w=1000&q=80"
             alt=""
           />
-          <div className=" p-3 font-medium">Executive</div>
+          <div className=" p-3 font-medium text-lg">Executive</div>
         </div>
 
-        <div>
+        <div className=" bg-white shadow-md">
           <img
             src=" https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&w=1000&q=80"
             alt=""
           />
-          <div className=" p-3 font-medium">Suites</div>
+          <div className=" p-3 font-medium text-lg">Suites</div>
         </div>
       </div>
 
